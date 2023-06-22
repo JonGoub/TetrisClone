@@ -1,4 +1,4 @@
-# FinalFlappyBirdClone
+# TetrisClone
 This is a Tetris program made using the Pygame library.
 
 # Running
