@@ -89,14 +89,11 @@ class GamePlay():
                     if event.key == pygame.K_LSHIFT:
                         self.save_piece()
 
-
             #Check for collisions
             self.collision_check(False)
              
-
             #Checking for full rows
             self.clear_lines()
-
     
             #Displaying game pieces
             self.piece.display_block()
@@ -377,25 +374,3 @@ class GamePlay():
                 print("GAME OVER")
                 pygame.quit()
                 exit()
-
-
-
-
-
-
-
-
-
-    
-           
-           
-
-        
- 
-
-
-   
-
-
-
-
